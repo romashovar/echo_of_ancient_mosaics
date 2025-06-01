@@ -1,0 +1,883 @@
+:: StoryTitle
+MOSAICI
+
+
+:: StoryData
+{
+  "ifid": "221C5A7C-C5D9-4BE9-A03B-B96F5F613BEA",
+  "format": "SugarCube",
+  "format-version": "2.37.3",
+  "start": "Beginning_0",
+  "zoom": 0.6
+}
+
+
+:: Beginning_0 {"position":"600,250","size":"100,100"}
+<h1 align="center">ECHO OF ANCIENT MOSAICS</h1>
+<p align="center"><img src="https://www.grandtourexperience.com/img/4625/or/n.jpg" width=500></p>
+<p align="center">Are you ready for a journey through the world of ancient art, fascinating history and unsolved mysteries? It's just one click away!</p>
+<p align="center">[[GET STARTED|Beginning_1]]</p>
+
+
+:: Beginning_1 {"position":"600,375","size":"100,100"}
+<h2 align="center">Welcome</h2>
+<p align="center">You are on the threshold of the mosaic collection at the National Archaeological Museum of Naples. It is a unique treasure, showcasing some of the finest examples of ancient Roman mosaic art. Primarily sourced from the ruins of Pompeii, Herculaneum, and other sites in Campania, these mosaics date from the 2nd century BC to the 1st century AD and offer a vivid glimpse into the artistic mastery of the period.</p>
+<p align="center">[[CONTINUE|Beginning_2]]</p>
+
+
+
+:: Beginning_2 {"position":"600,500","size":"100,100"}
+<h1>But what is that there?</h1>
+<table>
+<tr>
+<td>
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/beginning_2.jpg" width="500">
+</td>
+<td class="rightColumn">
+You were sure that you were walking around the exhibit hall completely alone, but now you noticed an unusual silhouette... This is a mysterious translucent figure of a young man, dressed in flowing clothes, wandering around the hall.
+
+[[Come closer|Beginning_3]]
+</td>
+</tr>
+</table>
+
+
+
+:: Beginning_3 {"position":"600,625","size":"100,100"}
+<h1>Hello! </h1>
+<table>
+<tr>
+<td>
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/ghost.jpeg" width="500">
+</td>
+<td class="rightColumn">
+Can you see me? Stay where you are! Don't be scared! Don't go!
+
+[[Find out what happened|Beginning_4]]
+</td>
+</tr>
+</table>
+
+
+:: Beginning_4 {"position":"600,750","size":"100,100"}
+<h1>I really need your help</h1>
+<table>
+<tr>
+<td>
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/ghost.jpeg" width="500">
+</td>
+<td class="rightColumn">
+Once upon a time I was an ordinary young man, serving in one of the rich houses of Pompeii. But one day my city was buried under ashes.
+
+Having survived the catastrophe, I remained "stuck" between two worlds, doomed to wander forever among these ancient mosaics.
+
+My only chance to save myself is to find a person who will help me unravel their secrets and find 11 magical pieces, tesserae.
+
+Will you help me?
+
+[[Yes!|Beginning_5]]
+</td>
+</tr>
+</table>
+
+
+:: Beginning_5 {"position":"600,875","size":"100,100"}
+<h1>Wonderful!</h1>
+<table>
+<tr>
+<td>
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/ghost_2.jpeg" width="500">
+</td>
+<td class="rightColumn">
+Then follow me. I will be your guide to this ancient world.
+
+[[Follow the young man|Femail_portrait_0]]
+</td>
+</tr>
+</table>
+
+
+:: Continue the journey {"position":"1600,875","size":"100,100"}
+
+
+
+:: Fattucchiera_0 {"position":"0,1100","size":"100,100"}
+<h1>Meeting with the sorceress</h1>
+<table>
+<tr>
+<td>
+<img src="https://mann-napoli.it/wp-content/uploads/2021/07/6-Consultazione-della-fattucchiera-inv.-9987-ALBANO.jpg" width="500">
+</td>
+<td class="rightColumn">
+This mosaic depicts a witch who, apparently, is about to prepare a love potion at the request of a young girl. On the table you can see various magical attributes.
+
+Let's ask the witch to cast a spell for us too? Ask a question, click the button below and get your fortune told straight from Ancient Rome!
+
+[[Get a prediction|Fattucchiera_1]]
+</td>
+</tr>
+</table>
+
+
+
+:: Fattucchiera_1 {"position":"0,1325","size":"100,100"}
+<h1>Meeting with the sorceress</h1>
+<table>
+<tr>
+<td>
+<img src="https://mann-napoli.it/wp-content/uploads/2021/07/6-Consultazione-della-fattucchiera-inv.-9987-ALBANO.jpg" width="500">
+</td>
+<td class="rightColumn">
+<<set _phrases = [
+  "Tempora mutantur, et nos mutamur in illis (Times change, and we change with them)",
+  "Fortuna caeca est (Fortune is blind)",
+  "Post tenebras lux (After darkness, light).",
+  "Fata viam invenient (Fate will find a way)",
+  "Fiat voluntas tua (I will do your will)",
+  "Omnia mutantur, nihil interit (Everything changes, nothing dies)",
+  "Quod futurum est, futurum erit (What is to come, will come)", 
+  "In nocte consilium (The night will bring advice)", 
+  "Omnia tempus habent (Everything has its time)", 
+  "Sic erit (So it will be)", 
+  "Noli sperare (Don't hope)", 
+  "Fatum negat (Fate denies)"
+]>>
+<<set _randomPhrase = _phrases.random()>>
+Answer to your question:
+<b>_randomPhrase</b>
+
+[[Get another prediction|Fattucchiera_1]]
+
+[[More about this mosaic|Fattucchiera_2]]
+
+[[Continue the journey|Musici_0]]
+</td>
+</tr>
+</table>
+
+
+:: Fattucchiera_2 {"position":"0,1450","size":"100,100"}
+<h1>Meeting with the sorceress</h1>
+<table>
+<tr>
+<td>
+<img src="https://mann-napoli.it/wp-content/uploads/2021/07/6-Consultazione-della-fattucchiera-inv.-9987-ALBANO.jpg" width="500">
+</td>
+<td class="rightColumn">
+This exquisite Roman mosaic, titled Meeting with the sorceress, was created using the opus vermiculatum technique with tesserae less than 1 mm in size. It depicts a theatrical scene: two young women consult an old, cross-eyed witch who holds a silver cup, likely containing love potions. All three women wear theatrical masks and are seated around a lion-footed table, surrounded by ritual objects, suggesting a magical rite. The composition imitates a stage, with steps in front and painted panels behind, drawing inspiration from Greek New Comedy. The mosaic is signed by the renowned artist Dioskourides of Samos, whose name appears in Greek at the top. It was found in the luxurious “Villa of Cicero” in Pompeii and is now housed in the National Archaeological Museum of Naples.
+
+[[Continue the journey|Musici_0]]
+</td>
+</tr>
+</table>
+
+
+:: Femail_portrait_0 {"position":"800,250","size":"100,100"}
+<h1>The first task</h1>
+<table>
+<tr>
+<td>
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/female_portrait.jpg" width="500">
+</td>
+<td class="rightColumn">
+Our journey begins at the mosaic "Female portrait". 
+
+Please find it and come closer.
+
+[[I am here, continue|Femail_portrait_1]]
+</td>
+</tr>
+</table>
+
+
+:: Femail_portrait_1 {"position":"800,375","size":"100,100"}
+<h1>Femail Portrait</h1>
+<table>
+<tr>
+<td>
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/female_portrait.jpg" width="500">
+</td>
+<td class="rightColumn">
+This portrait depicts a beautiful, rich and noble Roman woman. Perhaps the mistress of the house herself wanted to immortalize herself in stone.
+
+And do you know what accessories the women of ancient Rome used?
+
+[[Find out|Femail_portrait_2]]
+</td>
+</tr>
+</table>
+
+
+:: Femail_portrait_2 {"position":"800,500","size":"100,100"}
+<h1 align="center">Femail Portrait</h1>
+<p align="center">Here are eight objects. But only four of them could actually belong to an ancient Roman woman. Can you guess which ones?
+
+Mark these objects and click the "Check" button below.
+<table>
+<tr>
+<td>
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/sunglasses.jpeg" width="300">
+<label><<checkbox "$sunglasses" false true>> Sunglasses</label>
+</td>
+<td class="rightColumn">
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/kohl.jpg" width="300">
+<label><<checkbox "$eyePencil" false true>> Eye pencil</label>
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/perfume.jpeg" width="300">
+<label><<checkbox "$perfumeBottle" false true>> Perfume bottle</label>
+</td>
+<td class="rightColumn">
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/sneakers.jpeg" width="300">
+<label><<checkbox "$sneakers" false true>> Sneakers</label>
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/mascara.jpeg" width="300">
+<label><<checkbox "$mascara" false true>> Mascara bottle</label>
+</td>
+<td class="rightColumn">
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/mirror.jpeg" width="300">
+<label><<checkbox "$mirror" false true>> Hand mirror</label>
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/hairpin.jpeg" width="300">
+<label><<checkbox "$hairClip" false true>> Hair clip</label>
+</td>
+<td class="rightColumn">
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/headphones.jpeg" width="300">
+<label><<checkbox "$headphones" false true>> Headphones</label>
+</td>
+</tr>
+</table>
+
+[[Check|Femail_portrait_3]]
+
+</p>
+
+
+:: Femail_portrait_3 {"position":"800,625","size":"100,100"}
+<h1>Femail Portrait</h1>
+<<if $eyePencil is true and $hairClip is true and $headphones is false and $mascara is false and $mirror is true and $perfumeBottle is true and $sneakers is false and $sunglasses is false>>
+<table>
+<tr>
+<td>
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/ghost_3.jpeg" width="500">
+</td>
+<td class="rightColumn">
+That's right!
+
+Ancient Roman women did indeed use eyeliner (called kohl), hand mirrors, hair pins, and perfume.
+
+[[Great!|Femail_portrait_4]]
+</td>
+</tr>
+</table>
+ <<else>>
+ <table>
+<tr>
+<td>
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/ghost_4.jpeg" width="500">
+</td>
+<td class="rightColumn">
+Unfortunately, it is not correct yet.
+
+[[Try again|Femail_portrait_2]]
+</td>
+</tr>
+</table>
+ <</if>>
+
+
+:: Femail_portrait_4 {"position":"800,750","size":"100,100"}
+<h1>Femail Portrait</h1>
+<table>
+<tr>
+<td>
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/female_portrait.jpg" width="500">
+</td>
+<td class="rightColumn">
+<b>New fragment received</b>
+
+For completing this task you received the Tessera of Beauty!
+
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/tessera_5.png" width="100">
+
+[[More about this mosaic|Femail_portrait_5]]
+
+[[Continue the journey|Marine_fauna_0]]
+</td>
+</tr>
+</table>
+
+
+:: Femail_portrait_5 {"position":"800,875","size":"100,100"}
+<h1>Femail Portrait</h1>
+<table>
+<tr>
+<td>
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/female_portrait.jpg" width="500">
+</td>
+<td class="rightColumn">
+The Female Portrait (also known as Matrona Pompeiana) is a Roman mosaic from the 1st century AD, discovered in the tablinum of a Pompeian house (VI, 15, 14). It depicts a noblewoman in a highly realistic style, crafted in the opus vermiculatum technique with fine tesserae. The woman is portrayed with dark hair tied in a simple aristocratic style and adorned with elegant jewelry, such as pearl and gold earrings shaped like amphorae. Her facial features are asymmetrical and individualistic, avoiding idealization. Some scholars believe the asymmetry might represent different stages of her life, though it's more likely due to variations in tesserae. The portrait reflects her high social rank, traditional Roman virtues, and conservative demeanor. It also serves as a rare precursor to the Fayyum mummy portraits.
+
+[[Continue the journey|Marine_fauna_0]]
+</td>
+</tr>
+</table>
+
+
+:: Marine_fauna_0 {"position":"1000,250","size":"100,100"}
+<h1>The next task</h1>
+<table>
+<tr>
+<td>
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/marine_fauna.jpg" width="500">
+</td>
+<td class="rightColumn">
+Our journey goes on at the mosaic "Marine fauna". 
+
+Please find it and come closer.
+
+[[I am here, continue|Marine_fauna_1]]
+</td>
+</tr>
+</table>
+
+
+:: Marine_fauna_1 {"position":"1000,375","size":"100,100"}
+<h1>Marine fauna</h1>
+<table>
+<tr>
+<td>
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/marine_fauna.jpg" width="500">
+</td>
+<td class="rightColumn">
+At this step, you will feel like a fisherman who needs to deliver his cargo. To do this, you must first find the right route on the map.
+
+[[Сontinue|Marine_fauna_2]]
+</td>
+</tr>
+</table>
+
+
+:: Marine_fauna_2 {"position":"1000,500","size":"100,100"}
+<h1>Marine fauna</h1>
+<table>
+<tr>
+<td>
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/map.png" width="500">
+</td>
+<td class="rightColumn">
+Using the map in front of you, plot the following route:
+<b>Messina —> Pompei —> Roma —> Genova</b>
+
+Write down the letters according to the constructed route (for example, GDE).
+
+<<textbox "$route" "">>
+[[Check|Marine_fauna_3]]
+</td>
+</tr>
+</table>
+
+
+:: Marine_fauna_3 {"position":"1000,625","size":"100,100"}
+<h1>Marine fauna</h1>
+<<if $route is "KCJB">>
+<table>
+<tr>
+<td>
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/ghost_3.jpeg" width="500">
+</td>
+<td class="rightColumn">
+That's right!
+
+Thanks to you, the ship with fish entered all ports on time and the goods were delivered.
+
+[[Great!|Marine_fauna_4]]
+</td>
+</tr>
+</table>
+ <<else>>
+ <table>
+<tr>
+<td>
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/ghost_4.jpeg" width="500">
+</td>
+<td class="rightColumn">
+Unfortunately, it is not correct yet.
+
+[[Try again|Marine_fauna_2]]
+</td>
+</tr>
+</table>
+ <</if>>
+
+
+:: Marine_fauna_4 {"position":"1000,750","size":"100,100"}
+<h1>Marine fauna</h1>
+<table>
+<tr>
+<td>
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/marine_fauna.jpg" width="500">
+</td>
+<td class="rightColumn">
+<b>New fragment received</b>
+
+For completing this task you received the Tessera of Sea!
+
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/tessera_5.png" width="100"> <img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/tessera_6.png" width="100">
+
+[[More about this mosaic|Marine_fauna_5]]
+
+[[Continue the journey|Sorceress_0]]
+</td>
+</tr>
+</table>
+
+
+:: Marine_fauna_5 {"position":"1000,875","size":"100,100"}
+<h1>Marine fauna</h1>
+<table>
+<tr>
+<td>
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/marine_fauna.jpg" width="500">
+</td>
+<td class="rightColumn">
+The Marine Fauna mosaic, dated to the late 2nd century BC, was found in the triclinium of the House of the Faun in Pompeii. Created in the opus vermiculatum style, it features a detailed depiction of Mediterranean marine life within a lavish decorative frame. At the center, a humorous yet dramatic fight between an octopus and a lobster unfolds. Surrounding them are meticulously rendered fish, mollusks, and crustaceans—many of which are still familiar today. The scene is framed by rocky seascapes and includes a bird, likely a kingfisher, ready to strike. Scholars suggest the mosaic may derive from an Alexandrian painting influenced by scientific fishing texts like the Halieutica. The central animal duel also echoes Aristotle’s Historia animalium. The mosaic might reflect elite Roman taste for marine delicacies, as supported by classical literary sources.
+
+[[Continue|Sorceress_0]]
+</td>
+</tr>
+</table>
+
+
+:: Musici_0 {"position":"150,1075","size":"100,100"}
+<h1>Street musicians</h1>
+<table>
+<tr>
+<td>
+<img src="https://mann-napoli.it/wp-content/uploads/2021/07/5-I-musici-ambulanti-inv.-9985-ALBANO.jpg" width="500">
+</td>
+<td class="rightColumn">
+Musicians and their music were an integral part of the ancient world. Try to recognize ancient instruments by their sound.
+
+[[Continue|Musici_1]]
+</td>
+</tr>
+</table>
+
+
+:: Musici_1 {"position":"200,1200","size":"100,100"}
+<<set $answer = "">>
+<<set $checked = false>>
+<h1>Street musicians</h1>
+<table>
+<tr>
+<td>
+<img src="https://images.metmuseum.org/CRDImages/mi/original/-89.4.855%20D32A0423%20edited.jpg" width="500">
+1. Bagpipes
+
+<img src="https://d10j3mvrs1suex.cloudfront.net/u/392904/fd6a29bd9865eff81afb45c19484e4366aa246e4/original/silver-lyre.jpg/!!/b%3AWyJyZXNpemU6NDUweDU2OSJd.jpg" width="500">
+2. Kithara
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Mostra_Olearie_-_sistro_1010384.JPG/1200px-Mostra_Olearie_-_sistro_1010384.JPG" width="500">
+3. Sistrum
+
+<img src="https://www.archaeology.wiki/wp-content/uploads/2018/03/Hydraulis_replica.jpg" width="500">
+4. Hydraulos
+</td>
+<td class="rightColumn">
+What musical instrument does this sound belong to?
+
+<audio controls>
+  <source src="https://music.wixstatic.com/mp3/382d05_93263ccee65144ee82585baab85dcdac.mp3" type="audio/mpeg">
+</audio>
+
+<form>
+<label><<radiobutton "$answer" "1">> Bagpipes</label>
+<label><<radiobutton "$answer" "2">> Kithara</label>
+<label><<radiobutton "$answer" "3">> Sistrum</label>
+<label><<radiobutton "$answer" "4">> Hydraulos</label>
+</form>
+
+<<if $answer == "1">>
+     <b>Correct!</b> 🎉</p>
+  <<else>>
+    <b>Incorrect.</b> The correct answer is Dioskourides.
+  <</if>>
+[[Continue|Musici_1]]
+</td>
+</tr>
+</table>
+
+
+:: Musicians_0 {"position":"1400,250","size":"100,100"}
+<h1>The next task</h1>
+<table>
+<tr>
+<td>
+<img src="https://mann-napoli.it/wp-content/uploads/2021/07/5-I-musici-ambulanti-inv.-9985-ALBANO.jpg" width="500">
+</td>
+<td class="rightColumn">
+Our journey goes on at the mosaic "Street musicians". 
+
+Please find it and come closer.
+
+[[I am here, continue|Musicians_1]]
+</td>
+</tr>
+</table>
+
+
+:: Musicians_1 {"position":"1400,375","size":"100,100"}
+<h1>Street musicians</h1>
+<table>
+<tr>
+<td>
+<img src="https://mann-napoli.it/wp-content/uploads/2021/07/5-I-musici-ambulanti-inv.-9985-ALBANO.jpg" width="500">
+</td>
+<td class="rightColumn">
+Musicians and their music were an integral part of the ancient world. Try to recognize ancient instruments by their sound.
+
+[[Continue|Musicians_2]]
+</td>
+</tr>
+</table>
+
+
+:: Musicians_2 {"position":"1400,500","size":"100,100"}
+<h1>Street musicians</h1>
+<table>
+<tr>
+<td>
+<img src="https://images.metmuseum.org/CRDImages/mi/original/-89.4.855%20D32A0423%20edited.jpg" width="500">
+A. Bagpipes
+
+<img src="https://d10j3mvrs1suex.cloudfront.net/u/392904/fd6a29bd9865eff81afb45c19484e4366aa246e4/original/silver-lyre.jpg/!!/b%3AWyJyZXNpemU6NDUweDU2OSJd.jpg" width="500">
+B. Kithara
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Mostra_Olearie_-_sistro_1010384.JPG/1200px-Mostra_Olearie_-_sistro_1010384.JPG" width="500">
+C. Sistrum
+
+<img src="https://www.archaeology.wiki/wp-content/uploads/2018/03/Hydraulis_replica.jpg" width="500">
+D. Hydraulos
+</td>
+<td class="rightColumn">
+What musical instruments do these sounds belong to?
+
+1. <audio controls>
+  <source src="https://music.wixstatic.com/mp3/382d05_f7881eb3b20d42aab144337f70204944.mp3" type="audio/mpeg">
+</audio>
+
+<label><<radiobutton "$first" false>> A. Bagpipes</label>
+<label><<radiobutton "$first" true>> B. Kithara</label>
+<label><<radiobutton "$first" false>> C. Sistrum</label>
+<label><<radiobutton "$first" false>> D. Hydraulos</label>
+
+2. <audio controls>
+  <source src="https://music.wixstatic.com/mp3/382d05_93263ccee65144ee82585baab85dcdac.mp3" type="audio/mpeg">
+</audio>
+
+<label><<radiobutton "$second" true>> A. Bagpipes</label>
+<label><<radiobutton "$second" false>> B. Kithara</label>
+<label><<radiobutton "$second" false>> C. Sistrum</label>
+<label><<radiobutton "$second" false>> D. Hydraulos</label>
+
+3. <audio controls>
+  <source src="raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/sound/hydraulis.mp3" type="audio/mpeg">
+</audio>
+
+<label><<radiobutton "$third" false>> A. Bagpipes</label>
+<label><<radiobutton "$third" false>> B. Kithara</label>
+<label><<radiobutton "$third" false>> C. Sistrum</label>
+<label><<radiobutton "$third" true>> D. Hydraulos</label>
+
+4. <audio controls>
+  <source src="raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/sound/sistrum.mp3" type="audio/mpeg">
+</audio>
+
+<label><<radiobutton "$fourth" false>> A. Bagpipes</label>
+<label><<radiobutton "$fourth" false>> B. Kithara</label>
+<label><<radiobutton "$fourth" true>> C. Sistrum</label>
+<label><<radiobutton "$fourth" false>> D. Hydraulos</label>
+
+[[Check|Musicians_3]]
+</td>
+</tr>
+</table>
+
+
+:: Musicians_3 {"position":"1400,625","size":"100,100"}
+<h1>Street musicians</h1>
+<<if $first is true and $second is true and $third is true and $fourth is true>>
+<table>
+<tr>
+<td>
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/ghost_3.jpeg" width="500">
+</td>
+<td class="rightColumn">
+That's right!
+
+You have correctly identified all the musical instruments.
+
+[[Great!|Musicians_4]]
+</td>
+</tr>
+</table>
+ <<else>>
+ <table>
+<tr>
+<td>
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/ghost_4.jpeg" width="500">
+</td>
+<td class="rightColumn">
+Unfortunately, it is not correct yet.
+
+[[Try again|Musicians_2]]
+</td>
+</tr>
+</table>
+ <</if>>
+
+
+:: Musicians_4 {"position":"1400,750","size":"100,100"}
+<h1>Street musicians</h1>
+<table>
+<tr>
+<td>
+<img src="https://mann-napoli.it/wp-content/uploads/2021/07/6-Consultazione-della-fattucchiera-inv.-9987-ALBANO.jpg" width="500">
+</td>
+<td class="rightColumn">
+For completing this task you received the Tessera of Music!
+
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/tessera_5.png" width="100"> <img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/tessera_6.png" width="100"> <img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/tessera_0.png" width="100"> <img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/tessera_1.png" width="100">  
+
+[[More about this mosaic|Musicians_5]]
+
+[[Continue the journey]]
+</td>
+</tr>
+</table>
+
+
+:: Musicians_5 {"position":"1400,875","size":"100,100"}
+<h1>Street musicians</h1>
+<table>
+<tr>
+<td>
+<img src="https://mann-napoli.it/wp-content/uploads/2021/07/5-I-musici-ambulanti-inv.-9985-ALBANO.jpg" width="500">
+</td>
+<td class="rightColumn">
+The Street Musicians mosaic, dated to the 2nd–1st century BC, was discovered in the so-called Villa of Cicero near Pompeii. It is a finely executed opus vermiculatum emblem depicting four figures in a lively procession, likely approaching a house. Three of the figures wear theatrical masks from New Comedy: a tambourine player (the parasitos), a cymbalist (the kolax), and a female flute player (an etaira). They are followed by a child or dwarf playing a horn, possibly collecting offerings. The scene may represent the Metragyrtai, mendicant priests of Cybele, reflecting Hellenistic theatrical and religious traditions. The composition likely draws from a lost Hellenistic painting, with one later and lower-quality replica found in Stabiae. Signed in Greek by Dioskourides of Samos, it is one of the only signed mosaics in Campania. The mosaic's delicate tonal range and spatial depth reveal exceptional artistic skill.
+
+[[Continue the journey]]
+</td>
+</tr>
+</table>
+
+
+:: Sorceress_0 {"position":"1200,250","size":"100,100"}
+<h1>The next task</h1>
+<table>
+<tr>
+<td>
+<img src="https://mann-napoli.it/wp-content/uploads/2021/07/6-Consultazione-della-fattucchiera-inv.-9987-ALBANO.jpg" width="500">
+</td>
+<td class="rightColumn">
+Our journey goes on at the mosaic "Meeting with the sorceress". 
+
+Please find it and come closer.
+
+[[I am here, continue|Sorceress_1]]
+</td>
+</tr>
+</table>
+
+
+:: Sorceress_1 {"position":"1200,375","size":"100,100"}
+<h1>Meeting with the sorceress</h1>
+<table>
+<tr>
+<td>
+<img src="https://mann-napoli.it/wp-content/uploads/2021/07/6-Consultazione-della-fattucchiera-inv.-9987-ALBANO.jpg" width="500">
+</td>
+<td class="rightColumn">
+This mosaic depicts a witch who, apparently, is about to prepare a love potion at the request of a young girl. On the table you can see various magical attributes.
+
+Let's ask the witch to cast a spell for us too? Ask a question, click the button below and get your fortune told straight from Ancient Rome!
+
+[[Get a prediction|Sorceress_2]]
+</td>
+</tr>
+</table>
+
+
+:: Sorceress_2 {"position":"1200,500","size":"100,100"}
+<h1>Meeting with the sorceress</h1>
+<table>
+<tr>
+<td>
+<img src="https://mann-napoli.it/wp-content/uploads/2021/07/6-Consultazione-della-fattucchiera-inv.-9987-ALBANO.jpg" width="500">
+</td>
+<td class="rightColumn">
+<<set _phrases = [
+  "Tempora mutantur, et nos mutamur in illis (Times change, and we change with them)",
+  "Fortuna caeca est (Fortune is blind)",
+  "Post tenebras lux (After darkness, light).",
+  "Fata viam invenient (Fate will find a way)",
+  "Fiat voluntas tua (I will do your will)",
+  "Omnia mutantur, nihil interit (Everything changes, nothing dies)",
+  "Quod futurum est, futurum erit (What is to come, will come)", 
+  "In nocte consilium (The night will bring advice)", 
+  "Omnia tempus habent (Everything has its time)", 
+  "Sic erit (So it will be)", 
+  "Noli sperare (Don't hope)", 
+  "Fatum negat (Fate denies)"
+]>>
+<<set _randomPhrase = _phrases.random()>>
+Answer to your question:
+<b>_randomPhrase</b>
+
+[[Get another prediction|Sorceress_2]]
+
+[[Continue|Sorceress_3]]
+</td>
+</tr>
+</table>
+
+
+:: Sorceress_3 {"position":"1200,625","size":"100,100"}
+<h1>Meeting with the sorceress</h1>
+<table>
+<tr>
+<td>
+<img src="https://mann-napoli.it/wp-content/uploads/2021/07/6-Consultazione-della-fattucchiera-inv.-9987-ALBANO.jpg" width="500">
+</td>
+<td class="rightColumn">
+For meeting the witch you received the Tessera of Magic!
+
+<img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/tessera_5.png" width="100"> <img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/tessera_6.png" width="100"> <img src="https://raw.githubusercontent.com/romashovar/echo_of_ancient_mosaics/main/img/tessera_0.png" width="100">
+
+[[More about this mosaic|Sorceress_4]]
+
+[[Continue the journey|Musicians_0]]
+</td>
+</tr>
+</table>
+
+
+:: Sorceress_4 {"position":"1200,750","size":"100,100"}
+<h1>Meeting with the sorceress</h1>
+<table>
+<tr>
+<td>
+<img src="https://mann-napoli.it/wp-content/uploads/2021/07/6-Consultazione-della-fattucchiera-inv.-9987-ALBANO.jpg" width="500">
+</td>
+<td class="rightColumn">
+This exquisite Roman mosaic, titled Meeting with the sorceress, was created using the opus vermiculatum technique with tesserae less than 1 mm in size. It depicts a theatrical scene: two young women consult an old, cross-eyed witch who holds a silver cup, likely containing love potions. All three women wear theatrical masks and are seated around a lion-footed table, surrounded by ritual objects, suggesting a magical rite. The composition imitates a stage, with steps in front and painted panels behind, drawing inspiration from Greek New Comedy. The mosaic is signed by the renowned artist Dioskourides of Samos, whose name appears in Greek at the top. It was found in the luxurious “Villa of Cicero” in Pompeii and is now housed in the National Archaeological Museum of Naples.
+
+[[Continue the journey|Musicians_0]]
+</td>
+</tr>
+</table>
+
+
+:: StoryStylesheet [stylesheet]
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+  background-color: #f8f4e3;
+  font-size: 18px;         
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  
+}
+
+h1 {
+  font-size: 52px;         
+  color: #C1440E;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 0;
+} 
+
+h2 {
+  font-size: 48px;         
+  color: #C1440E;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}  
+
+p {
+  font-size: 18px;         
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.link-internal {
+  display: inline-block;
+  background-color: #C1440E;
+  color: #F0F0F0;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 2px 2px 5px rgba(44, 62, 80, 0.3);
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  outline: none;
+}
+
+.link-internal:hover {
+  background-color: #A4380C;
+  text-decoration: none;
+  outline: none;
+  color: #F0F0F0;
+}
+
+img {
+  border: 1px solid #C1440E;       
+  border-radius: 15px; 
+  padding: 3px;
+}
+
+input[type="text"] {  
+  color: #000000;
+  background-color: #F0F0F0
+  border: 2px solid #C1440E;       
+  border-radius: 8px;              
+  padding: 10px 14px;
+  font-size: 16px;
+  font-family: "Playfair Display", serif;
+  box-shadow: 1px 1px 4px rgba(44, 62, 80, 0.2);
+}
+
+td.rightColumn {
+  padding-left: 20px;
+}
+
+td {
+  vertical-align: top;
+}
+  

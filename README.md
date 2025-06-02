@@ -1,0 +1,1 @@
+"Echo of ancient mosaics" is a a project for the Digital Heritage and Multimedia course, DHDK, University of Bologna. Design briefs and storytelling made with Twine can be found here. Created by Polina Khromtcova, Arina Samylova and Artem Romasov.
